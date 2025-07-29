@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #eae7dc;
+  color: #333;
+}
+
+ul li {
+  list-style: none;
+}
+
+.resume-container {
+  display: flex;
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.left-side {
+  background: #f5ebe0;
+  width: 35%;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-pic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 1.5rem;
+  margin: 10px 0 5px;
+}
+
+.title {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.contact {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact li,
+.about p {
+  margin-bottom: 7px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.contact li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact li a:hover {
+  color: #b08968;
+}
+
+.education h3,
+.about h3,
+.skills h3,
+.contact h3 {
+  font-size: 18px;
+  margin-bottom: 11px;
+  border-bottom: 2px solid #b08968;
+  display: inline-block;
+}
+
+.right-side {
+  width: 65%;
+  padding: 20px;
+}
+
+.list li,
+.edu-item li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444;
+}
+
+.list li strong,
+.edu-item li strong {
+  color: #222;
+  font-weight: 600;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(#eae7dc);
+}
+
+.open-resume-btn {
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background: #8784bd;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.open-resume-btn:hover {
+  background: #6f6d9b;
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
