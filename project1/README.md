@@ -48,4 +48,4 @@ This resume is fully responsive and can be viewed across different screen sizes.
 
 
 ## 🖼️ Preview
-![Profile](./src/assets/1.png)
+![Profile](./src/assets/resume.png)

@@ -52,6 +52,15 @@ export default function App() {
             </li>
           </ul>
         </section>
+
+        <section className="languages">
+          <h3>Languages</h3>
+          <ul className="list">
+            <li>Hindi</li>
+            <li>English</li>
+            <li>Gujarati</li>
+          </ul>
+        </section>
       </div>
 
       <div className="right-side">
@@ -93,14 +102,40 @@ export default function App() {
           </ul>
         </section>
 
-        <section className="languages">
-          <h3>Languages</h3>
+        <section className="projects">
+          <h3>Projects</h3>
           <ul className="list">
-            <li>Hindi</li>
-            <li>English</li>
-            <li>Gujarati</li>
+            <li>
+              <strong>Flight Ticket Management System API</strong>
+              <p>
+                Developed a RESTful API using Node.js  for managing flight
+                schedules, bookings, cancellations, and seat allocations. Integrated
+                MongoDB for database operations. Includes admin CRUD, authentication via
+                JWT, and search filters.
+              </p>
+              <p>
+                🔗 <a href="https://github.com/nencyvadadoriya/node-js/tree/master/project-8" target="_blank">GitHub Repository</a>
+              </p>
+              <p><strong>Technologies:</strong> Node.js, MongoDB, JWT, Multer</p>
+            </li>
+            <li>
+              <strong>Admin Panel – Node.js, MongoDB</strong>
+              <p>
+                Designed and developed a secure admin panel with full authentication, session
+                handling, file upload, and CRUD operations. Implemented MVC structure with EJS
+                templates and MongoDB for dynamic data management. Includes password reset using OTP
+                and admin profile management.
+              </p>
+              <p>
+                🔗 <a href="https://github.com/nencyvadadoriya/node-js/tree/master/set-up-admin-penal" target="_blank">GitHub Repository</a>
+              </p>
+              <p><strong>Technologies:</strong> Node.js, MongoDB, Passport.js, EJS, Multer</p>
+            </li>
+
           </ul>
         </section>
+
+
       </div>
     </div>
   );
