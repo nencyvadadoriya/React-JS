@@ -1,12 +1,51 @@
-# React + Vite
+# 📊 React Table Using State
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple **React Table** project where table data is stored and managed using React's `useState` hook.  
+It allows you to display data dynamically and easily update or modify rows.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 📄 Display tabular data
+- 🔄 Managed completely with React state
+- ➕ Add new rows dynamically
+- 🗑️ Delete rows from the table
+- 🎨 Clean and responsive UI using basic CSS
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Technologies Used
+- React.js
+- JavaScript (ES6+)
+- CSS3
+- HTML5
+
+---
+
+## 📌 How It Works
+1. Table data is stored in a state variable.
+2. You can add or remove rows dynamically.
+3. The table re-renders whenever state changes.
+4. Clean layout for better readability.
+
+---
+
+## 🔗 Social Links
+
+- [💼 LinkedIn](https://www.linkedin.com/in/nency-vadadoriya-3969052ba/)
+- [👨‍💻 GitHub](https://github.com/nencyvadadoriya)
+
+---
+
+## 🪪 License
+
+This project is licensed under the [MIT License](https://github.com/nencyvadadoriya/-License/blob/main/LICENSE).
+
+## 📸 Preview
+
+![Tailwind table Page Preview](./img-1.png)
+
+---
+
+## 🙌 Thanks for visiting!
+
