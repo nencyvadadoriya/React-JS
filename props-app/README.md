@@ -1,12 +1,58 @@
-# React + Vite
+# 🛍️  Tailwind CSS Product Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive **Product Page** built using **React** and **Tailwind CSS**.  
+It displays product cards with images, names, and prices in a clean, modern design.  
+The layout is fully responsive and optimized for both mobile and desktop devices.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 📱 Fully responsive design
+- 🖼️ Product images with descriptions
+- 💲 Price display
+- 🎨 Styled using Tailwind CSS utility classes
+- ⚛️ Built with React functional components
+- 🧩 Easy to customize and extend
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Technologies Used
+
+- React.js
+- Tailwind CSS
+- JavaScript (ES6+)
+- Responsive Design Principles
+
+---
+
+## 📌 How It Works
+
+- Products are stored in an array inside the React component.
+- Each product has:
+  - **Image**
+  - **Name**
+  - **Price**
+- Tailwind utility classes handle spacing, colors, fonts, and responsiveness.
+- The layout adapts automatically for mobile, tablet, and desktop.
+
+---
+
+## 🔗 Social Links
+
+- [💼 LinkedIn](https://www.linkedin.com/in/nency-vadadoriya-3969052ba/)
+- [👨‍💻 GitHub](https://github.com/nencyvadadoriya)
+
+---
+
+## 🪪 License
+
+This project is licensed under the [MIT License](https://github.com/nencyvadadoriya/-License/blob/main/LICENSE).
+
+## 📸 Preview
+
+![Tailwind Product Page Preview](./img-1.png)
+
+---
+
+## 🙌 Thanks for visiting!
+
