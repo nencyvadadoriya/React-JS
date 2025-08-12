@@ -16,7 +16,7 @@ function App() {
 
           <div className="flex gap-2 flex-wrap">
             {colorList.map((value, index) =>
-              <button key={index} onClick={() => setColor(value)} className={`px-4 py-2 text-white bg-${value}-500 hover:bg-${value}-600 rounded`}>{value}</button>
+              <button key={index} onClick={() => setColor(value)} className={`px-4 py-2 text-white bg-${value}-500 hover:bg-${value}-600 rounded`}>{value[0].toUpperCase() + value.slice(1, value.length)}</button>
             )}
           </div>
         </div>
