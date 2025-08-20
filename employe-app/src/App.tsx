@@ -1,9 +1,12 @@
 import EmployeeForm from "./compontes/form";
+import NavbarPage from "./compontes/navbar";
 
 function App() {
   return (
-    <EmployeeForm />
-
+    <>
+      <NavbarPage />
+      <EmployeeForm />
+    </>
   );
 }
 
