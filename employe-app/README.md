@@ -63,11 +63,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 
 
 ---
-## 📸 Preview
+## 📸 Preview  
 
-![Add to Cart Preview](./src/assets/img-1.png)
-![Add to Cart Preview](./src/assets/img-2.png)
-![Add to Cart Preview](./src/assets/img-3.png)
-![Add to Cart Preview](./src/assets/img-4.png)
+<div align="center">
+  <img src="./src/assets/img-1.png" alt="Preview 1" width="45%" style="margin: 10px;" />
+  <img src="./src/assets/img-2.png" alt="Preview 2" width="45%" style="margin: 10px;" />
+  <img src="./src/assets/img-3.png" alt="Preview 3" width="45%" style="margin: 10px;" />
+  <img src="./src/assets/img-4.png" alt="Preview 4" width="45%" style="margin: 10px;" />
+</div>
 
 ## 🙌 Thanks for visiting!
