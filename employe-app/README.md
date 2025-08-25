@@ -1,69 +1,73 @@
-# React + TypeScript + Vite
+# Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Employee Management System** built with **React, TypeScript, and Tailwind CSS**.  
+This project demonstrates the use of React components, TypeScript for type safety, Tailwind CSS for styling, and state management with React Hooks.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📌 **Navbar with Hero Section**
+  - Responsive navigation bar with links.
+  - Hero section introducing the Employee Management System.
+- 📝 **Employee Registration Form**
+  - Collects employee details: First Name, Last Name, Email, Password, Phone, Gender, Department, and Hobbies.
+  - Input validation with React state management.
+  - Supports multiple hobbies using checkboxes.
+- 📊 **Employee Dashboard Table**
+  - Displays registered employee details.
+  - Toggle between form view and table view.
+- 🎨 **Styling**
+  - Fully responsive design using Tailwind CSS.
+  - Dark mode compatible styles included.
+- ⚡ **State Management**
+  - Built with React Hooks (`useState`) for handling form data.
+  - Form submit clears data and displays it in a table.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- **React** (with functional components)
+- **TypeScript** (for type safety)
+- **Tailwind CSS** (for styling)
+- **Vite** (recommended build tool)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+
+
+## 🔗 Social Links
+
+- [💼 LinkedIn](https://www.linkedin.com/in/nency-vadadoriya-3969052ba/)
+- [👨‍💻 GitHub](https://github.com/nencyvadadoriya)
+
+---
+
+## 🪪 License
+
+This project is licensed under the [MIT License](https://github.com/nencyvadadoriya/-License/blob/main/LICENSE).
+
+```
+MIT License
+
+Copyright (c) 2025 Nency
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights 
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
+copies of the Software, and to permit persons to whom the Software is 
+furnished to do so, subject to the following conditions:
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
+## 📸 Preview
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+![Add to Cart Preview](./src/assets/img-1.png)
+![Add to Cart Preview](./src/assets/img-2.png)
+![Add to Cart Preview](./src/assets/img-3.png)
+![Add to Cart Preview](./src/assets/img-4.png)
+
+## 🙌 Thanks for visiting!

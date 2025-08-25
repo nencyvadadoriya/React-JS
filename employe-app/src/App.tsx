@@ -1,11 +1,13 @@
 import EmployeeForm from "./compontes/form";
 import NavbarPage from "./compontes/navbar";
+import { useState } from "react";
 
 function App() {
+    const [showForm, setShowForm] = useState(false);
   return (
     <>
-      <NavbarPage />
-      <EmployeeForm />
+      <NavbarPage showForm={showForm} setShowForm={setShowForm}/>
+      <EmployeeForm  showForm={showForm} setShowForm={setShowForm}/>
     </>
   );
 }
