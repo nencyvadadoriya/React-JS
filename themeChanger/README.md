@@ -18,8 +18,8 @@ User एक बटन दबाकर theme बदल सकता है और
 This project is licensed under the [MIT License](https://github.com/nencyvadadoriya/-License/blob/main/LICENSE).
 
 ---
-📷 Demo Preview
+📷 Preview
     ![theme changer](./src/assets/img-2.png)
-    (./src/assets/img-1.png)
+    ![theme changer](./src/assets/img-1.png)
 
     ## 🙌 Thanks for visiting!
