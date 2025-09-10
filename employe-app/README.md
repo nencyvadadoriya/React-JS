@@ -35,11 +35,11 @@ This project is licensed under the [MIT License](https://github.com/nencyvadador
 ```
 
 ## 🖼️ Preview
-![Banner Preview](./public/img1.png)
-![Banner Preview](./public/img2.png)
-![Banner Preview](./public/img3.png)
-![Banner Preview](./public/img4.png)
-![Banner Preview](./public/img5.png)
-![Banner Preview](./public/img6.png)
+![Banner Preview](./src/assets/img1.png)
+![Banner Preview](./src/assets/img2.png)
+![Banner Preview](./src/assets/img3.png)
+![Banner Preview](./src/assets/img4.png)
+![Banner Preview](./src/assets/img5.png)
+![Banner Preview](./src/assets/img6.png)
 
 ---
