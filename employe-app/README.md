@@ -35,14 +35,11 @@ This project is licensed under the [MIT License](https://github.com/nencyvadador
 ```
 
 ## 🖼️ Preview
-<div align="center">
-  <img src="./public/img1.png" alt="Preview 1" width="45%" style="margin: 10px;" />
-  
-  <img src="./public/img2.png" alt="Preview 3" width="45%" style="margin: 10px;" />
-  <img src="./public/img3.png" alt="Preview 2" width="45%" style="margin: 10px;" />
-  <img src="./public/img4.png" alt="Preview 4" width="45%" style="margin: 10px;" />
-  <img src="./public/img5.png" alt="Preview 4" width="45%" style="margin: 10px;" />
-  <img src="./public/img6.png" alt="Preview 4" width="45%" style="margin: 10px;" />
-</div>
+![Banner Preview](./public/img1.png)
+![Banner Preview](./public/img2.png)
+![Banner Preview](./public/img3.png)
+![Banner Preview](./public/img4.png)
+![Banner Preview](./public/img5.png)
+![Banner Preview](./public/img6.png)
 
 ---
