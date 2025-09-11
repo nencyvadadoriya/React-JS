@@ -35,11 +35,11 @@ This project is licensed under the [MIT License](https://github.com/nencyvadador
 ```
 
 ## 🖼️ Preview
-![Banner Preview](./img1.png)
-![Banner Preview](./img2.png)
-![Banner Preview](./img3.png)
-![Banner Preview](./img4.png)
-![Banner Preview](./img5.png)
-![Banner Preview](./img6.png)
+![Navbar Preview](./img1.png)
+![Hero Banner](./img2.png)
+![Responsive View](./img3.png)
+![Employee Section](./img4.png)
+![Mobile Navbar](./img5.png)
+![Full Layout](./img6.png)
 
 ---

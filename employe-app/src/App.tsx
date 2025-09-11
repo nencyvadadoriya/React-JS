@@ -1,5 +1,5 @@
 import EmployeeForm from "./compontes/form";
-import NavbarPage from "./compontes/navbar";
+import NavbarPage from "./compontes/Navbar";
 import { useState } from "react";
 
 function App() {
