@@ -22,6 +22,16 @@ function App() {
     }
   };
 
+  // setCount1(count => count + 1)
+  // setCount1(count => count + 1)
+  // setCount1(count => count + 1) // increse 3 hoga 3+3 = 6
+
+
+  // setCount1(count + 1)
+  // setCount1(count + 1)
+  // setCount1(count + 1)
+  // setCount1(count + 1)  // increse 1 hi hoga  1+1+1+1 == 1+1 =2 +1 = 3
+
   return (
     <div className="container">
       <h1>Top Products</h1>
