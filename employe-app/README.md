@@ -32,7 +32,6 @@ This project includes a **premium navbar** and a **corporate-style hero banner**
 
 This project is licensed under the [MIT License](https://github.com/nencyvadadoriya/-License/blob/main/LICENSE).
 
-```
 
 ---
 📸 Preview
