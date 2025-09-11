@@ -35,6 +35,23 @@ This project is licensed under the [MIT License](https://github.com/nencyvadador
 
 ---
 📸 Preview
-  ![preview](./public/img1.png)
-  ![preview](./public/img2.png)
+<div align="center">
+
+<table>
+  <tr>
+    <td><img src="./public/img1.png" width="200" /></td>
+    <td><img src="./public/img2.png" width="200" /></td>
+  </tr>
+  <tr>
+    <td><img src="./public/img3.png" width="200" /></td>
+    <td><img src="./public/img4.png" width="200" /></td>
+  </tr>
+  <tr>
+    <td><img src="./public/img5.png" width="200" /></td>
+    <td><img src="./public/img6.png" width="200" /></td>
+  </tr>
+</table>
+
+</div>
+
 ---
