@@ -1,69 +1,98 @@
-# React + TypeScript + Vite
+# 🌸 Fleur – Custom Dried Flower Bouquets Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and elegant **React + Tailwind CSS** website for a dried flower shop, featuring a homepage, about section, services, blog, shop, and a 404 error page.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+### 1. **Responsive Navbar**
+- Logo linking to home.
+- Navigation links: Home, About, Services, Contact.
+- Shop button with hover effect.
+- Mobile-friendly layout with Tailwind CSS classes.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 2. **Homepage Banner**
+- Full-screen hero section with a background image.
+- Text overlay with headline, subtext, and **Shop** CTA button.
+- Semi-transparent overlay for better text readability.
+- Drop shadows for improved contrast.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### 3. **About Section**
+- Split layout with text on the left and image on the right.
+- Headline, tagline, description, and **Let's Go** button.
+- Rounded image with shadow effects.
+- Responsive design for all devices.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### 4. **Services Section**
+- Three cards: **Custom Bouquets**, **Occasion Flowers**, **Premade Bouquets**.
+- Rounded top images with overflow hidden.
+- Description, headline, and **Read More** button for each card.
+- Flex layout adjusts from column (mobile) to row (desktop).
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 5. **Shop Section**
+- Grid layout with 1–4 columns depending on screen size.
+- Product cards with image, likes, and share button.
+- Hover effect scales cards slightly.
+- Premium and clean UI for displaying products.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 6. **Blog Page**
+- Simple page with centered heading.
+- Ready to add blog content.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 7. **404 Error Page**
+- Full-screen layout for Page Not Found.
+- Heading with **404**, description, and button to redirect to homepage.
+- Elegant design with branding colors.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🎨 Design
+- **Tailwind CSS** for modern, responsive styling.
+- Soft color palette: `#fdfaf6`, `#F5EFE9`, `#b78a6e`.
+- Rounded corners, shadows, and hover animations for interactive elements.
+- Mobile-first responsive design using Tailwind's breakpoints.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** – Component-based UI
+- **React Router DOM** – Navigation
+- **Tailwind CSS** – Styling
+- **JavaScript ES6+**
+- **Responsive Design** – Mobile, tablet, desktop
+
+## 🔗 Social Links
+
+- [💼 LinkedIn](https://www.linkedin.com/in/nency-vadadoriya-3969052ba/)
+- [👨‍💻 GitHub](https://github.com/nencyvadadoriya)
+
+---
+
+## 🪪 License
+
+This project is licensed under the [MIT License](https://github.com/nencyvadadoriya/-License/blob/main/LICENSE).
+
+
+---
+📸 Preview
+<div align="center">
+
+<table>
+  <tr>
+    <td><img src="./public/img1.png" width="500" /></td>
+    <td><img src="./public/img2.png" width="500" /></td>
+  </tr>
+  <tr>
+    <td><img src="./public/img3.png" width="500" /></td>
+    <td><img src="./public/img4.png" width="500" /></td>
+  </tr>
+  <tr>
+    <td><img src="./public/img-5.png" width="500" /></td>
+    <td><img src="./public/img6.png" width="500" /></td>
+  </tr>
+</table>
+</div>
+
+---
