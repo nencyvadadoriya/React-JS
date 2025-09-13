@@ -1,14 +1,23 @@
-import EmployeeForm from "./compontes/form";
+import EmployeeForm from "./compontes/Form";
 import NavbarPage from "./compontes/Navbar";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
-    const [showForm, setShowForm] = useState(false);
+  const [theme, setTheme] = useState(localStorage.getItem("theme")|| "")
+
+  const toggleTheme = ()=>{
+    setTheme(theme=>  (theme === "light" ) ? "dark" : "light")
+  }
+  useEffect(()=>{
+     localStorage.setItem("theme" , theme) 
+  },[theme])
   return (
     <>
-      <NavbarPage showForm={showForm} setShowForm={setShowForm}/>
-      <EmployeeForm  showForm={showForm} setShowForm={setShowForm}/>
-      
+      <div className={`w-full h-screen transition-colors duration-500 ${theme  ==="light"  ? "bg-white text-black" : "bg-gray-900 text-white"
+          }`} >
+        <NavbarPage  theme={theme} toggleTheme={toggleTheme}/>
+        <EmployeeForm  theme = {theme} toggleTheme={toggleTheme}/>
+      </div>
     </>
   );
 }

@@ -1,7 +1,7 @@
 # Employee Portal 🚀
 
 A modern and professional **Employee Management Portal UI** built with **React + Tailwind CSS**.  
-This project includes a **premium navbar** and a **corporate-style hero banner** with employee-related illustrations.  
+This project includes a **premium navbar**, a **corporate-style hero banner**, and **dark/light theme support** with employee-related illustrations.    
 
 ---
 
@@ -11,6 +11,13 @@ This project includes a **premium navbar** and a **corporate-style hero banner**
 - ✅ Professional employee-related **illustration**  
 - ✅ Tailwind CSS for modern design & easy customization  
 - ✅ Mobile-friendly (hamburger menu for small screens)  
+
+---
+
+## 🌗 Dark/Light Theme
+- Toggle between **dark mode** and **light mode** using the top-right button in the navbar.  
+- Tailwind CSS `dark:` variants are used to style components.  
+- User preference can be saved using `localStorage` in React.  
 
 ---
 
@@ -45,10 +52,6 @@ This project is licensed under the [MIT License](https://github.com/nencyvadador
   <tr>
     <td><img src="./public/img3.png" width="500" /></td>
     <td><img src="./public/img4.png" width="500" /></td>
-  </tr>
-  <tr>
-    <td><img src="./public/img5.png" width="500" /></td>
-    <td><img src="./public/img6.png" width="500" /></td>
   </tr>
 </table>
 

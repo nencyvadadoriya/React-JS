@@ -3,7 +3,11 @@ import { ToastContainer, toast } from "react-toastify";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 
-function EmployeeForm() {
+type navbarProps = {
+  theme: string
+}
+
+function EmployeeForm({ theme }: navbarProps) {
   const MySwal = withReactContent(Swal);
   const [Fname, setFname] = useState<string>("");
   const [Lname, setLname] = useState<string>("");
@@ -148,8 +152,8 @@ function EmployeeForm() {
   return (
     <>
       {/* Form */}
-      <div className="flex flex-col items-center justify-center p-6 min-h-screen">
-        <div className="w-full max-w-2xl bg-white/80 backdrop-blur-lg rounded-3xl shadow-xl p-8 border border-indigo-200">
+      <div className={`flex flex-col items-center justify-center p-6 h-screen  ${(theme === "light" ? "text-black bg-white" : "text-white bg-[#111827]")}`}>
+        <div className={`w-full max-w-2xl rounded-3xl shadow-xl p-8 border border-indigo-200 bg-white`}>
           <h2 className="text-2xl font-bold text-indigo-900 mb-6 text-center">
             {editedId === undefined
               ? "Employee Registration Form"
@@ -168,7 +172,7 @@ function EmployeeForm() {
                   value={Fname}
                   onChange={(e) => setFname(e.target.value)}
                   placeholder="John"
-                  className={`w-full p-3 border rounded-lg focus:ring-2 focus:ring-indigo-400 ${error.Fname
+                  className={`w-full p-3 border rounded-lg focus:ring-2 focus:ring-indigo-400 text-black placeholder-gray-500 dark:placeholder-black ${error.Fname
                     ? "border-red-500 focus:border-red-500"
                     : "border-gray-300 focus:border-indigo-500"
                     }`}
@@ -187,7 +191,7 @@ function EmployeeForm() {
                   value={Lname}
                   onChange={(e) => setLname(e.target.value)}
                   placeholder="Doe"
-                  className={`w-full p-3 border rounded-lg focus:ring-2 focus:ring-indigo-400 ${error.Lname
+                  className={`w-full p-3 border rounded-lg focus:ring-2 focus:ring-indigo-400 text-black placeholder-gray-500 dark:placeholder-black ${error.Lname
                     ? "border-red-500 focus:border-red-500"
                     : "border-gray-300 focus:border-indigo-500"
                     }`}
@@ -209,7 +213,7 @@ function EmployeeForm() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="name@company.com"
-                  className={`w-full p-3 border rounded-lg focus:ring-2 focus:ring-indigo-400 ${error.email
+                  className={`w-full p-3 border rounded-lg focus:ring-2 focus:ring-indigo-400 text-black placeholder-gray-500 dark:placeholder-black ${error.email
                     ? "border-red-500 focus:border-red-500"
                     : "border-gray-300 focus:border-indigo-500"
                     }`}
@@ -228,7 +232,7 @@ function EmployeeForm() {
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                   placeholder="+91 1234567890"
-                  className={`w-full p-3 border rounded-lg focus:ring-2 focus:ring-indigo-400 ${error.phone
+                  className={`w-full p-3 border rounded-lg focus:ring-2 focus:ring-indigo-400 text-black placeholder-gray-500 dark:placeholder-black ${error.phone
                     ? "border-red-500 focus:border-red-500"
                     : "border-gray-300 focus:border-indigo-500"
                     }`}
@@ -249,7 +253,7 @@ function EmployeeForm() {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder="••••••••"
-                className={`w-full p-3 border rounded-lg focus:ring-2 focus:ring-indigo-400 ${error.password
+                className={`w-full p-3 border rounded-lg focus:ring-2 focus:ring-indigo-400 text-black placeholder-gray-500 dark:placeholder-black ${error.password
                   ? "border-red-500 focus:border-red-500"
                   : "border-gray-300 focus:border-indigo-500"
                   }`}
@@ -267,17 +271,20 @@ function EmployeeForm() {
                   Gender
                 </label>
                 <div className="flex items-center gap-4">
-                  {["Male", "Female"].map((g) => (
-                    <label key={g} className="flex items-center gap-1">
+                  {["Male", "Female"].map((index) => (
+                    <label
+                      key={index}
+                      className="flex items-center gap-1 text-black dark:text-black"
+                    >
                       <input
                         type="radio"
                         name="gender"
-                        value={g}
-                        checked={gender === g}
+                        value={index}
+                        checked={gender === index}
                         onChange={(e) => setGender(e.target.value)}
                         className="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-indigo-400"
                       />
-                      {g}
+                      {index}
                     </label>
                   ))}
                 </div>
@@ -294,7 +301,7 @@ function EmployeeForm() {
                 <select
                   value={department}
                   onChange={(e) => setDepartment(e.target.value)}
-                  className={`w-full p-3 border rounded-lg focus:ring-2 focus:ring-indigo-400 ${error.department
+                  className={`w-full p-3 border rounded-lg text-black dark:text-black focus:ring-2 focus:ring-indigo-400 ${error.department
                     ? "border-red-500 focus:border-red-500"
                     : "border-gray-300 focus:border-indigo-500"
                     }`}
@@ -317,7 +324,10 @@ function EmployeeForm() {
               </label>
               <div className="flex gap-6">
                 {AllHobbies.map((hob, idx) => (
-                  <label key={idx} className="flex items-center gap-1">
+                  <label
+                    key={idx}
+                    className="flex items-center gap-1 text-black dark:text-black"
+                  >
                     <input
                       type="checkbox"
                       value={hob}
@@ -334,6 +344,7 @@ function EmployeeForm() {
               )}
             </div>
 
+
             {/* Submit Button */}
             <button
               type="submit"
@@ -345,79 +356,93 @@ function EmployeeForm() {
               {editedId === undefined ? "Add Employee" : "Update Employee"}
             </button>
           </form>
+
         </div>
       </div>
 
       {/* Table */}
-      <div className="max-w-7xl mx-auto mt-16 mb-16 overflow-x-auto shadow-xl rounded-2xl border border-indigo-100">
-        <table className="min-w-[1000px] w-full text-sm text-gray-700 border-collapse">
-          {/* Table Header */}
-          <thead className="bg-indigo-100 text-indigo-800">
-            <tr>
-              <th className="px-6 py-4 text-center font-semibold">No</th>
-              <th className="px-6 py-4 text-center font-semibold">First Name</th>
-              <th className="px-6 py-4 text-center font-semibold">Last Name</th>
-              <th className="px-6 py-4 text-center font-semibold">Email</th>
-              <th className="px-6 py-4 text-center font-semibold">Password</th>
-              <th className="px-6 py-4 text-center font-semibold">Phone</th>
-              <th className="px-6 py-4 text-center font-semibold">Hobbies</th>
-              <th className="px-6 py-4 text-center font-semibold">Gender</th>
-              <th className="px-6 py-4 text-center font-semibold">Department</th>
-              <th className="px-6 py-4 text-center font-semibold">Action</th>
-            </tr>
-          </thead>
-
-          {/* Table Body */}
-          <tbody className="divide-y divide-indigo-100">
-            {AllEmployee.length === 0 ? (
+      <div
+        className={` w-full ${theme === "light" ? "bg-white text-black" : "bg-gray-900 text-white"
+          } p-10`}>
+        <div
+          className={`max-w-7xl mx-auto   overflow-x-auto shadow-xl rounded-2xl border ${theme === "light"
+              ? "bg-white text-black border-indigo-200"
+              : "bg-white text-black border-gray-200"
+            }`}
+        >
+          <table className="w-[1000px] w-full text-sm text-gray-700 border-collapse">
+            {/* Table Header */}
+            <thead className="bg-indigo-100 text-indigo-800">
               <tr>
-                <td
-                  colSpan={10}
-                  className="px-6 py-12 text-center text-gray-500 italic"
-                >
-                  No employee added yet
-                </td>
+                <th className="px-6 py-4 text-center font-semibold">No</th>
+                <th className="px-6 py-4 text-center font-semibold">First Name</th>
+                <th className="px-6 py-4 text-center font-semibold">Last Name</th>
+                <th className="px-6 py-4 text-center font-semibold">Email</th>
+                <th className="px-6 py-4 text-center font-semibold">Password</th>
+                <th className="px-6 py-4 text-center font-semibold">Phone</th>
+                <th className="px-6 py-4 text-center font-semibold">Hobbies</th>
+                <th className="px-6 py-4 text-center font-semibold">Gender</th>
+                <th className="px-6 py-4 text-center font-semibold">Department</th>
+                <th className="px-6 py-4 text-center font-semibold">Action</th>
               </tr>
-            ) : (
-              AllEmployee.map((employee, index) => (
-                <tr
-                  key={index}
-                  className={`${index % 2 === 0 ? "bg-white" : "bg-indigo-50"
-                  }`}
-                >
-                  <td className="px-6 py-4 text-center font-medium">{index + 1}</td>
-                  <td className="px-6 py-4 text-center">{employee.Fname}</td>
-                  <td className="px-6 py-4 text-center">{employee.Lname}</td>
-                  <td className="px-6 py-4 text-center">{employee.email}</td>
-                  <td className="px-6 py-4 text-center">{employee.password}</td>
-                  <td className="px-6 py-4 text-center">{employee.phone}</td>
-                  <td className="px-6 py-4 text-center">
-                    {employee.hobbies.join(", ")}
-                  </td>
-                  <td className="px-6 py-4 text-center">{employee.gender}</td>
-                  <td className="px-6 py-4 text-center">{employee.department}</td>
-                  <td className="px-6 py-4 text-center flex justify-center gap-3">
-                    {/* Edit Button */}
-                    <button
-                      onClick={() => editEmploye(index)}
-                      className="px-4 py-2 text-sm font-medium text-white rounded-lg shadow-sm bg-indigo-500 hover:bg-indigo-600 transition">
-                      Edit
-                    </button>
+            </thead>
 
-                    {/* Delete Button */}
-                    <button
-                      onClick={() => deleteEmploye(index)}
-                      className="px-4 py-2 text-sm font-medium text-white rounded-lg shadow-sm bg-red-500 hover:bg-red-600 transition"
-                    >
-                      Delete
-                    </button>
+            {/* Table Body */}
+            <tbody className="divide-y divide-indigo-100">
+              {AllEmployee.length === 0 ? (
+                <tr>
+                  <td
+                    colSpan={10}
+                    className="px-6 py-12 text-center text-gray-500 italic"
+                  >
+                    No employee added yet
                   </td>
                 </tr>
-              ))
-            )}
-          </tbody>
-        </table>
+              ) : (
+                AllEmployee.map((employee, index) => (
+                  <tr
+                    key={index}
+                    className={`${index % 2 === 0 ? "bg-white" : "bg-indigo-50"
+                      }`}
+                  >
+                    <td className="px-6 py-4 text-center font-medium">
+                      {index + 1}
+                    </td>
+                    <td className="px-6 py-4 text-center">{employee.Fname}</td>
+                    <td className="px-6 py-4 text-center">{employee.Lname}</td>
+                    <td className="px-6 py-4 text-center">{employee.email}</td>
+                    <td className="px-6 py-4 text-center">{employee.password}</td>
+                    <td className="px-6 py-4 text-center">{employee.phone}</td>
+                    <td className="px-6 py-4 text-center">
+                      {employee.hobbies.join(", ")}
+                    </td>
+                    <td className="px-6 py-4 text-center">{employee.gender}</td>
+                    <td className="px-6 py-4 text-center">{employee.department}</td>
+                    <td className="px-6 py-4 text-center flex justify-center gap-3">
+                      {/* Edit Button */}
+                      <button
+                        onClick={() => editEmploye(index)}
+                        className="px-4 py-2 text-sm font-medium text-white rounded-lg shadow-sm bg-indigo-500 hover:bg-indigo-600 transition"
+                      >
+                        Edit
+                      </button>
+
+                      {/* Delete Button */}
+                      <button
+                        onClick={() => deleteEmploye(index)}
+                        className="px-4 py-2 text-sm font-medium text-white rounded-lg shadow-sm bg-red-500 hover:bg-red-600 transition"
+                      >
+                        Delete
+                      </button>
+                    </td>
+                  </tr>
+                ))
+              )}
+            </tbody>
+          </table>
+        </div>
       </div>
+
       <ToastContainer />
     </>
   );
