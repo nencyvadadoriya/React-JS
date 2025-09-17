@@ -42,16 +42,16 @@ This project is licensed under the [MIT License](https://github.com/nencyvadador
 
 <table>
   <tr>
-    <td><img src="../public/img1.png" width="500" /></td>
-    <td><img src="../public/img2.png" width="500" /></td>
+    <td><img src="./public/img1.png" width="500" /></td>
+    <td><img src="./public/img2.png" width="500" /></td>
   </tr>
   <tr>
-    <td><img src="../public/img3.png" width="500" /></td>
-    <td><img src="../public/img4.png" width="500" /></td>
+    <td><img src="./public/img3.png" width="500" /></td>
+    <td><img src="./public/img4.png" width="500" /></td>
   </tr>
   <tr>
-    <td><img src="../public/img5.png" width="500" /></td>
-    <td><img src="../public/img6.png" width="500" /></td>
+    <td><img src="./public/img5.png" width="500" /></td>
+    <td><img src="./public/img6.png" width="500" /></td>
   </tr>
 </table>
 
