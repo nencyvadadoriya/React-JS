@@ -1,4 +1,4 @@
-import { NavLink, Link } from "react-router"
+import { NavLink } from "react-router"
 
 function Navbar() {
   return (
@@ -10,24 +10,67 @@ function Navbar() {
         {/* Nav Links */}
         <ul className="hidden md:flex gap-8 text-lg font-medium">
           <li>
-            <Link to="/" className="hover:text-[#ff5722] transition">Home</Link>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? "text-[#ff5722] font-bold transition" : "hover:text-[#ff5722] transition"
+              }
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/about" className="hover:text-[#ff5722] transition">About Us</NavLink>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? "text-[#ff5722] font-bold transition" : "hover:text-[#ff5722] transition"
+              }
+            >
+              About Us
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/services" className="hover:text-[#ff5722] transition">Services</NavLink>
+            <NavLink
+              to="/services"
+              className={({ isActive }) =>
+                isActive ? "text-[#ff5722] font-bold transition" : "hover:text-[#ff5722] transition"
+              }
+            >
+              Services
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/pages" className="hover:text-[#ff5722] transition">Pages</NavLink>
+            <NavLink
+              to="/pages"
+              className={({ isActive }) =>
+                isActive ? "text-[#ff5722] font-bold transition" : "hover:text-[#ff5722] transition"
+              }
+            >
+              Pages
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/blog" className="hover:text-[#ff5722] transition">Blog</NavLink>
+            <NavLink
+              to="/blog"
+              className={({ isActive }) =>
+                isActive ? "text-[#ff5722] font-bold transition" : "hover:text-[#ff5722] transition"
+              }
+            >
+              Blog
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" className="hover:text-[#ff5722] transition">Contact</NavLink>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) =>
+                isActive ? "text-[#ff5722] font-bold transition" : "hover:text-[#ff5722] transition"
+              }
+            >
+              Contact
+            </NavLink>
           </li>
         </ul>
+
 
         {/* Button */}
         <NavLink to="/">
