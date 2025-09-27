@@ -15,7 +15,7 @@ import {
 import { useState } from "react";
 
 function Sidebar() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [open, setopen] = useState(true);
   const [currentTheme, setCurrentTheme] = useState(localStorage.getItem("themeColor") || "bg-white");
 
   const changeTheme = (color: string) => {
@@ -36,11 +36,11 @@ function Sidebar() {
     { name: "Rose", value: "bg-rose-200" },
   ];
 
-  if (!isOpen) {
+  if (!open) {
     return (
       <div className="w-16 bg-white text-gray-900 flex flex-col shadow-lg items-center py-4 justify-between">
         <div>
-          <button onClick={() => setIsOpen(true)} className="mb-6 hover:text-blue-500">
+          <button onClick={() => setopen(true)} className="mb-6 hover:text-blue-500">
             <Bars3Icon className="w-6 h-6" />
           </button>
           <div className="space-y-6">
@@ -63,7 +63,7 @@ function Sidebar() {
       {/* Header */}
       <div className="p-6 font-extrabold text-xl tracking-wide border-b border-gray-200 flex justify-between items-center">
         <span className="text-gray-800">ToDo App</span>
-        <button onClick={() => setIsOpen(false)} className="hover:text-red-500">
+        <button onClick={() => setopen(false)} className="hover:text-red-500">
           <XMarkIcon className="w-6 h-6" />
         </button>
       </div>
