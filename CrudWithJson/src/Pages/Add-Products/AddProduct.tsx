@@ -27,16 +27,9 @@ export default function AddProduct() {
 
     if (!formData.name.trim()) newErrors.name = "Product name is required";
     if (!formData.category) newErrors.category = "Please select a category";
-    if (!formData.price || Number(formData.price) <= 0) newErrors.price = "Price must be greater than 0";
-    if (!formData.stock || Number(formData.stock) < 0) newErrors.stock = "Stock cannot be negative";
+    if (!formData.price ) newErrors.price = "Price must be greater than 0";
+    if (!formData.stock) newErrors.stock = "Stock cannot be negative";
     if (!formData.image.trim()) newErrors.image = "Image URL is required";
-    else {
-      try {
-        new URL(formData.image);
-      } catch (err) {
-        newErrors.image = "Invalid Image URL";
-      }
-    }
     if (!formData.desc.trim()) newErrors.desc = "Product description is required";
 
     setErrors(newErrors);
