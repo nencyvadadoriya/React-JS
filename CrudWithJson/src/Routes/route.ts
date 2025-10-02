@@ -6,13 +6,17 @@ import ViewProduct from "../Pages/Add-Products/View-Products/ViewProduct";
 import { ProductApi } from "../service/productApl";
 import EditProduct from "../Pages/Add-Products/EditProduct/EditProduct";
 import AddToCartPage from "../Pages/Add-Products/AddToCart/AddToCartPage";
+import ProductDetails from "../Pages/ProductDetails/ProductDetails";
+import NotFound from "../Pages/Error/NotFoundPage";
 
 export const routerNames = {
     home: '/',
     addProduct: '/addProduct',
     viewProduct: '/viewProduct',
     editProduct: '/editProduct/:id',
-    AddToCartPage : "/addToCard"
+    productDetails: '/product/:id',
+    AddToCartPage: "/addToCard",
+    NotFound : "/notfound"
 }
 
 export const routes = createBrowserRouter([
@@ -39,15 +43,25 @@ export const routes = createBrowserRouter([
                 Component: ViewProduct
             },
             {
-                path :routerNames.editProduct,
-                loader: async ({params}) => {
-                        return await ProductApi.fecthSingleProduct(params.id as string) 
+                path: routerNames.editProduct,
+                loader: async ({ params }) => {
+                    return await ProductApi.fecthSingleProduct(params.id as string)
                 },
                 Component: EditProduct
             },
             {
-                path : routerNames.AddToCartPage,
-                Component : AddToCartPage
+                path: "/product/:id",
+                loader: async ({ params }) => {
+                    return await ProductApi.fecthSingleProduct(params.id as string);
+                },
+                Component: ProductDetails
+            },
+            {
+                path: routerNames.AddToCartPage,
+                Component: AddToCartPage
+            },{
+                path :"*",
+                Component : NotFound
             }
         ]
     }

@@ -1,15 +1,13 @@
 import { Outlet } from "react-router";
-import Sidebar from "./Components/Sidebar/Sidebar";
+import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
   return (
-    <div className="h-screen w-full flex">
-      <Sidebar />
-      <div className="flex flex-col flex-1">
-        <main className="flex-grow  overflow-auto p-6">
-          <Outlet />
-        </main>
-      </div>
+    <div className="h-screen w-full flex flex-col">
+      <Navbar />
+      <main className="flex-1 overflow-auto p-6 bg-gray-50">
+        <Outlet />
+      </main>
     </div>
   );
 }

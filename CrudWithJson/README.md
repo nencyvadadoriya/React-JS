@@ -64,5 +64,9 @@ This project is licensed under the [MIT License](https://github.com/nencyvadador
     <td><img src="./public/img7.png" width="500" /></td>
     <td><img src="./public/img8.png" width="500" /></td>
   </tr>
+    <tr>
+    <td><img src="./public/img9.png" width="500" /></td>
+    <td><img src="./public/img-10.png" width="500" /></td>
+  </tr>
 </table>
 </div>

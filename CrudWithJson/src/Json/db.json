@@ -1,103 +1,110 @@
 {
   "products": [
     {
-      "id": "3444",
-      "name": "Men's Backpack",
-      "category": "Bags",
-      "price": 1599,
+      "id": "1237",
+      "name": "Wireless Headphones Pro",
+      "category": "Electronics",
+      "price": 4999,
+      "stock": 10,
+      "image": "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg",
+      "desc": "High-quality wireless headphones",
+      "rating": 4.8,
+      "reviews": 234
+    },
+    {
+      "id": "2737",
+      "name": "Smart Watch Series 5",
+      "category": "Wearables",
+      "price": 12999,
       "stock": 12,
-      "image": "https://tse2.mm.bing.net/th/id/OIP.KTKF97yhaSTjOf6RexvqVQHaJQ?pid=Api&P=0&h=180",
-      "desc": "Durable backpack for work or travel."
+      "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg",
+      "desc": "Advanced smartwatch with fitness tracking",
+      "rating": 4.7,
+      "reviews": 567
     },
     {
-      "id": "3445",
-      "name": "Women's Heels",
-      "category": "Footwear",
-      "price": 2199,
+      "id": "3182",
+      "name": "4K Ultra HD Camera",
+      "category": "Photography",
+      "price": 45999,
+      "stock": 5,
+      "image": "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg",
+      "desc": "Professional 4K camera for photography enthusiasts",
+      "rating": 4.9,
+      "reviews": 189
+    },
+    {
+      "id": "4735",
+      "name": "Bluetooth Speaker Max",
+      "category": "Audio",
+      "price": 3499,
       "stock": 8,
-      "image": "https://tse2.mm.bing.net/th/id/OIP.ZtgPdyUeSpRRyY5zBs5OAgAAAA?pid=Api&P=0&h=180",
-      "desc": "Elegant heels for parties and special occasions."
+      "image": "https://tse4.mm.bing.net/th/id/OIP.hEKwiQ3NJi6YsYE85t_pDwHaEK?pid=Api&P=0&h=180",
+      "desc": "Portable Bluetooth speaker with excellent sound quality",
+      "rating": 4.6,
+      "reviews": 412
     },
     {
-      "id": "6172",
-      "name": "Designer Evening Gown",
-      "category": "fashion",
-      "price": "349999",
-      "stock": "3",
-      "image": "https://png.pngtree.com/png-vector/20250408/ourmid/pngtree-buy-luxury-pink-satin-evening-dress-with-lace-detailing-png-image_15940379.png",
-      "desc": "Luxury evening gown perfect for red carpet events"
+      "id": "5927",
+      "name": "Gaming Laptop Elite",
+      "category": "Computers",
+      "price": 89999,
+      "stock": 6,
+      "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg",
+      "desc": "High-performance gaming laptop",
+      "rating": 4.8,
+      "reviews": 321
     },
     {
-      "id": "2112",
-      "name": "Perfume - Luxe Scent",
-      "category": "beauty",
-      "price": "6999",
-      "stock": "7",
-      "image": "https://i.pinimg.com/originals/06/f3/8d/06f38da9203b95766dfd04a5257587d7.png",
-      "desc": "Popular perfume used by top celebrities."
+      "id": "6272",
+      "name": "Wireless Mouse Pro",
+      "category": "Accessories",
+      "price": 1299,
+      "stock": 18,
+      "image": "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg",
+      "desc": "Ergonomic wireless mouse",
+      "rating": 4.5,
+      "reviews": 678
     },
     {
-      "id": "5402",
-      "name": "Women's Heels",
-      "category": "fashion",
-      "price": "999000",
-      "stock": "2",
-      "image": "https://www.brasslook.com/wp-content/uploads/2018/06/Gold-High-Heels-Shoes-Ideas-18.jpg",
-      "desc": "Elegant heels for parties and special occasions."
+      "id": "7076",
+      "name": "USB-C Hub Adapter",
+      "category": "Accessories",
+      "price": 2499,
+      "stock": 10,
+      "image": "https://images.pexels.com/photos/4195325/pexels-photo-4195325.jpeg",
+      "desc": "Multiport USB-C hub for laptops",
+      "rating": 4.7,
+      "reviews": 156
     },
     {
-      "id": "5802",
-      "name": "Smart Watch",
-      "category": "electronics",
-      "price": "349",
+      "id": "8752",
+      "name": "Mechanical Keyboard RGB",
+      "category": "Gaming",
+      "price": 8999,
+      "stock": 7,
+      "image": "https://images.pexels.com/photos/1194713/pexels-photo-1194713.jpeg",
+      "desc": "RGB mechanical keyboard for gaming",
+      "rating": 4.9,
+      "reviews": 443
+    },
+    {
+      "id": "5744",
+      "name": "Women's Summer Dress",
+      "category": "Fashion",
+      "price": "1799",
       "stock": "20",
-      "image": "https://tse4.mm.bing.net/th/id/OIP.2FiBq4QvBjocpM745fx_GgHaHk?pid=Api&P=0&h=180",
-      "desc": "Smart watch with heart rate monitor and fitness tracking."
+      "image": "https://img.ltwebstatic.com/images3_pi/2024/07/16/fa/1721128313bfea84b62610e1278fed053eb98661f2_thumbnail_900x.webp",
+      "desc": "Lightweight and breezy summer dress designed for comfort and style on sunny days."
     },
     {
-      "id": "1267",
-      "name": "Sunglasses",
-      "category": "fashion",
-      "price": "1299",
-      "stock": "15",
-      "image": "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597745284__STD__shad__qt.png?impolicy=SGH_bgtransparent&width=1000",
-      "desc": "Stylish UV-protected sunglasses"
-    },
-    {
-      "id": "1248",
-      "name": "Beauty & Skincare",
-      "category": "beauty",
-      "price": "20900",
-      "stock": "20",
-      "image": "https://i.pinimg.com/originals/32/6e/75/326e757cad51be365e46f941b56a6f82.jpg",
-      "desc": "A lightweight face cream that deeply hydrates and nourishes your skin, suitable for all skin types."
-    },
-    {
-      "id": "4538",
-      "name": "Lipstick Set",
-      "category": "beauty",
-      "price": "1800",
-      "stock": "30",
-      "image": "https://tse4.mm.bing.net/th/id/OIP.xQu2cuuw_8u9ChbvLoxf7wHaHa?pid=Api&P=0&h=180",
-      "desc": "Long-lasting matte lipstick set with vibrant shades for every occasion"
-    },
-    {
-      "id": "457",
-      "name": "Perfume - Luxe Scent",
-      "category": "beauty",
-      "price": "900",
-      "stock": "5",
-      "image": "https://in.ajmalperfume.com/cdn/shop/files/FLEUR-SILK_EDP_100ML_1.png?v=1719820252",
-      "desc": "“Luxe Perfumes blends AI with expert perfumers to recreate designer-inspired scents — smarter, fresher, and affordable. "
-    },
-    {
-      "id": "4337",
-      "name": "Women's Casual Top",
-      "category": "fashion",
+      "id": "2400",
+      "name": "Pride and Prejudice",
+      "category": "Books",
       "price": "700",
-      "stock": "20",
-      "image": "https://rukminim2.flixcart.com/image/640/661/xif0q/kids-top/u/y/u/15-16-years-girls-white-rayon-embroidered-casual-round-tie-up-original-imagrxczeafv7pbn.jpeg?q=60",
-      "desc": "Lightweight and stylish casual top, perfect for everyday wear or outings."
+      "stock": "30",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.FLj6KKdr_vBu621Z1FZQJQHaE8?pid=Api&P=0&h=180",
+      "desc": "National Digital Library of India (NDLI) is a virtual repository of learning resources which is not just a repository with search/browse facilities but provides a host of services"
     }
   ]
 }
