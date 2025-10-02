@@ -54,7 +54,7 @@ export default function ViewProduct() {
       const max = Math.max(...prices);
       const min = Math.min(...prices);
       setMaxAndMinPrice([min, max]);
-      setPrice(min); // set initial price to min
+      setPrice(min);
     }
   }, [allProducts]);
 
@@ -77,10 +77,7 @@ export default function ViewProduct() {
       {/* Header */}
       <div className="flex flex-col md:flex-row justify-between items-center mb-6 gap-4">
         <h2 className="text-3xl font-bold text-gray-800 flex items-center gap-2">📦 View Products</h2>
-
-        {/* Filters and Search */}
         <div className="flex flex-col sm:flex-row items-center gap-3 w-full sm:w-auto">
-          {/* Price Range Slider */}
           <div className="flex items-center gap-2 w-full sm:w-auto">
             <span className="text-sm text-gray-600">₹{price || maxAndMinPrice[0]}</span>
             <input
