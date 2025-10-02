@@ -1,0 +1,157 @@
+{
+  "products": [
+    {
+      "id": "3444",
+      "name": "Men's Backpack",
+      "category": "Bags",
+      "price": 1599,
+      "stock": 12,
+      "image": "https://tse2.mm.bing.net/th/id/OIP.KTKF97yhaSTjOf6RexvqVQHaJQ?pid=Api&P=0&h=180",
+      "desc": "Durable backpack for work or travel."
+    },
+    {
+      "id": "6172",
+      "name": "Designer Evening Gown",
+      "category": "fashion",
+      "price": "349999",
+      "stock": "3",
+      "image": "https://png.pngtree.com/png-vector/20250408/ourmid/pngtree-buy-luxury-pink-satin-evening-dress-with-lace-detailing-png-image_15940379.png",
+      "desc": "Luxury evening gown perfect for red carpet events"
+    },
+    {
+      "id": "2112",
+      "name": "Perfume - Luxe Scent",
+      "category": "beauty",
+      "price": "6999",
+      "stock": "7",
+      "image": "https://i.pinimg.com/originals/06/f3/8d/06f38da9203b95766dfd04a5257587d7.png",
+      "desc": "Popular perfume used by top celebrities."
+    },
+    {
+      "id": "5402",
+      "name": "Women's Heels",
+      "category": "footwear",
+      "price": "999000",
+      "stock": "2",
+      "image": "https://www.brasslook.com/wp-content/uploads/2018/06/Gold-High-Heels-Shoes-Ideas-18.jpg",
+      "desc": "Elegant heels for parties and special occasions."
+    },
+    {
+      "id": "5802",
+      "name": "Smart Watch",
+      "category": "electronics",
+      "price": "349",
+      "stock": "20",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.2FiBq4QvBjocpM745fx_GgHaHk?pid=Api&P=0&h=180",
+      "desc": "Smart watch with heart rate monitor and fitness tracking."
+    },
+    {
+      "id": "1267",
+      "name": "Sunglasses",
+      "category": "fashion",
+      "price": "1299",
+      "stock": "15",
+      "image": "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597745284__STD__shad__qt.png?impolicy=SGH_bgtransparent&width=1000",
+      "desc": "Stylish UV-protected sunglasses"
+    },
+    {
+      "id": "1248",
+      "name": "Beauty & Skincare",
+      "category": "beauty",
+      "price": "20900",
+      "stock": "20",
+      "image": "https://i.pinimg.com/originals/32/6e/75/326e757cad51be365e46f941b56a6f82.jpg",
+      "desc": "A lightweight face cream that deeply hydrates and nourishes your skin, suitable for all skin types."
+    },
+    {
+      "id": "4538",
+      "name": "Lipstick Set",
+      "category": "beauty",
+      "price": "1800",
+      "stock": "30",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.xQu2cuuw_8u9ChbvLoxf7wHaHa?pid=Api&P=0&h=180",
+      "desc": "Long-lasting matte lipstick set with vibrant shades for every occasion"
+    },
+    {
+      "id": "457",
+      "name": "Perfume - Luxe Scent",
+      "category": "beauty",
+      "price": "900",
+      "stock": "5",
+      "image": "https://in.ajmalperfume.com/cdn/shop/files/FLEUR-SILK_EDP_100ML_1.png?v=1719820252",
+      "desc": "“Luxe Perfumes blends AI with expert perfumers to recreate designer-inspired scents — smarter, fresher, and affordable. "
+    },
+    {
+      "id": "4337",
+      "name": "Women's Casual Top",
+      "category": "fashion",
+      "price": "700",
+      "stock": "20",
+      "image": "https://rukminim2.flixcart.com/image/640/661/xif0q/kids-top/u/y/u/15-16-years-girls-white-rayon-embroidered-casual-round-tie-up-original-imagrxczeafv7pbn.jpeg?q=60",
+      "desc": "Lightweight and stylish casual top, perfect for everyday wear or outings."
+    },
+    {
+      "id": "9983",
+      "name": "Designer Evening Gown",
+      "category": "fashion",
+      "price": "98087",
+      "stock": "30",
+      "image": "https://static.vecteezy.com/system/resources/previews/058/997/105/non_2x/elegant-red-chiffon-evening-gown-with-flowing-skirt-and-offtheshoulder-sleeves-free-png.png",
+      "desc": "There are long flowing gowns, A-line, mermaid, layered or pleated gowns and countless types of necklines to mention. "
+    },
+    {
+      "id": "9553",
+      "name": "iPhone",
+      "category": "electronics",
+      "price": "15999",
+      "stock": "10",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.4az6DWA8tazUlQCSzAySPQHaHa?pid=Api&P=0&h=180",
+      "desc": "Latest smartphone with 6.7-inch display, quad camera setup, and fast charging\n"
+    },
+    {
+      "id": "8572",
+      "name": "Laptop Pro 15 mac",
+      "category": "electronics",
+      "price": "59999",
+      "stock": "17",
+      "image": "https://www.seekpng.com/png/full/74-747933_mac-laptop-png.png",
+      "desc": "Powerful laptop with Intel i7, 16GB RAM, 512GB SSD, perfect for work and gaming"
+    },
+    {
+      "id": "2869",
+      "name": "Wireless Headphones",
+      "category": "electronics",
+      "price": "566865",
+      "stock": "20",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.Fn6BIpITXzrBuwPAT6ro7wHaI9?pid=Api&P=0&h=180",
+      "desc": "High-quality wireless headphones with noise cancellation and long battery life"
+    },
+    {
+      "id": "3689",
+      "name": "Women's Heels",
+      "category": "footwear",
+      "price": "7654",
+      "stock": "10",
+      "image": "https://i.pinimg.com/originals/62/88/58/6288585f96e6633394dc2bfcf94d94ab.png",
+      "desc": "Lightweight running shoes with breathable mesh and cushioned sole for ultimate comfort"
+    },
+    {
+      "id": "4683",
+      "name": " Shoes",
+      "category": "footwear",
+      "price": "2499",
+      "stock": "50",
+      "image": "https://pngimg.com/uploads/converse/converse_PNG26.png",
+      "desc": "Lightweight running shoes with breathable mesh and cushioned sole for ultimate comfort"
+    },
+    {
+      "id": "6602",
+      "name": "crocs",
+      "category": "footwear",
+      "price": "900",
+      "stock": "10",
+      "image": "http://cdn.shopify.com/s/files/1/0451/5456/6312/products/Crocs-Unisex-Classic-Clogs-Stucco-002.png?v=1645028844",
+      "desc": "Comfortable and lightweight flip flops, perfect for beach and casual wear.\""
+    }
+  ]
+}
