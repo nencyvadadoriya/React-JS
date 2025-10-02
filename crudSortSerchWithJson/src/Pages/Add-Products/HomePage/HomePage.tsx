@@ -15,22 +15,19 @@ export default function HomePage() {
   const [allCategory, setAllCategory] = useState<string[]>(["All"]);
   const [search, setSearch] = useState("");
 
-  // ✅ Final Filtering Logic (Category + Search)
   const filterProduct = allProduct.filter((product) => {
     const matchesCategory =
       selectedCategory === "All" || product.category === selectedCategory;
 
-    const matchesSearch =
+    const serch =
       product.name.toLowerCase().includes(search.toLowerCase()) ||
       product.category.toLowerCase().includes(search.toLowerCase());
 
-    return matchesCategory && matchesSearch;
+    return matchesCategory && serch;
   });
-
-  // ✅ Category list setup
   useEffect(() => {
     const setCategories = new Set(allProduct.map((p) => p.category));
-    setAllCategory(["All", ...Array.from(setCategories)]);
+    setAllCategory(["All", ...setCategories]);
   }, [allProduct]);
 
   return (
